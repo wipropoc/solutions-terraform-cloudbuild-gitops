@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "bldc-integration-with-gcp-tfstate"
     prefix = "env/prod"
   }
 }
